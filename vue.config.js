@@ -1,4 +1,6 @@
-
-publicPath = process.env.NODE_ENV === 'production'
-  ? '/contact-organizer-vuejs/'
-  : '/';
+const { defineConfig } = require('@vue/cli-service')
+module.exports = defineConfig({
+  publicPath: '/contact-organizer',
+  transpileDependencies: true
+  
+})
