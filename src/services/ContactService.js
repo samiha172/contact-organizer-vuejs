@@ -2,7 +2,7 @@ import axios from "axios";
 
 export class ContactService
 {
-    static serverURL = `http://localhost:8090`;
+    static serverURL = `https://my-json-server.typicode.com/samiha172/jsonserver`;
 
     static getAllContacts()
     {
